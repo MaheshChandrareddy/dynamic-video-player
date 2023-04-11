@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+.header {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid rgb(126, 125, 125);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f0f0f;
+  color: #717171;
+}
+.header input {
+  width: 700px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  padding-left: 30px;
+}
+.header .head-left {
+  height: inherit;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .head-left div svg {
+  height: 10%;
+  width: 30%;
+  color: #fff;
+}
+.ytd-logo {
+  color: #fff;
+}
+.header .head-right {
+  height: inherit;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main-con {
+  width: 100%;
+  height: 200vh;
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-con .left-con {
+  width: 60%;
+  height: 180vh;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-con .left-con .video-con {
+  width: 95%;
+  height: 80vh;
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.main-con .left-con .description-con {
+  width: 90%;
+  height: 35vh;
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+.main-con .left-con .comment-con {
+  width: 90%;
+  height: 60vh;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.main-con .left-con .comment-con .user-input input {
+  height: 250%;
+  width: 70%;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.main-con .left-con .comment-con .user-input button {
+  height: 200%;
+  width: 10%;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.main-con .left-con .comment-con .user-input button:hover {
+  cursor: pointer;
+  background-color: rgb(144, 144, 144);
+  box-shadow: 0px 0px 4px 0px;
+}
+.main-con .left-con .comment-con .user-comments {
+  height: 50%;
+  width: 70%;
+  font-size: 16px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+.main-con .right-con {
+  width: 30%;
+  height: 200vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(207, 207, 207);
+  height: 90%;
+  overflow: scroll;
+}
+.main-con .right-con #card-img {
+  width: 100%;
+  height: 180vh;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+.card {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  background-color: rgb(51, 51, 51);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+#card-id .right-des {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card img {
+  width: 40%;
+  height: 90%;
+  border-radius: 20px;
+}
+.card:hover {
+  cursor: pointer;
+}
